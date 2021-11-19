@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import { CardGroup } from "react-bootstrap";
 import { Card } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 
 export default class Home extends React.Component {

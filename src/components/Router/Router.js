@@ -12,7 +12,7 @@ export default function AppRouter() {
       <Switch>
         <Route exact path={["/", "/login"]} component={Login} />
         <Route exact path={["/home"]} component={Home} />
-        <PrivateRoute exact path={["/home2"]} component={home2} />
+        
         <PrivateRoute exact path={["/empleados"]} component={Empleados} />
 
         {/* Ruta de página no encontrada (404) */}
@@ -31,6 +31,4 @@ export default function AppRouter() {
   );
 }
 
-function home2() {
-  return <h2>Home2</h2>;
-}
+
