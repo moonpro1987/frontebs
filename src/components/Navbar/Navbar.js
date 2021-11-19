@@ -6,7 +6,7 @@ import {
   DropdownButton,
   Dropdown,
   Row,
-  Col,
+  
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
@@ -20,11 +20,11 @@ export default class NavBar extends React.Component {
   }
   render() {
     return (
-      <Navbar id="navbar" bg="primary" variant="dark">
+      <Navbar id="navbar" bg="ligth" variant="dark">
         <Container>
           <img className="img-logo" src={logo} alt="logo" />
           <Navbar.Brand href="#home">
-            Grupo 2 Mision Tic <span id="usuario-sub-branm"></span>
+            <h1>Eventos de Bienestar Social</h1> <span id="usuario-sub-branm"></span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
