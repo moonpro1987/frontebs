@@ -6,7 +6,7 @@ import {
   DropdownButton,
   Dropdown,
   Row,
-  Col,
+  
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
@@ -33,7 +33,8 @@ export default class NavBar extends React.Component {
               {/*<Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#link">Link</Nav.Link>*/}
             </Nav>
-            <DropdownButton id="dropdown-basic-button" title="Usuario">
+            <DropdownButton id="dropdown-basic-button" size="lg" title="Usuario" >
+            
               <Dropdown.Header id="dropdown-header">
                 <Row>
                   <FontAwesomeIcon icon={faUserCircle} />
