@@ -10,6 +10,12 @@
   justify-content: center;
   margin-top: 5px;
 }
-.img-logo {
-  height: 180px;
+
+#navbar{
+  background: rgb(71,98,218);
+background: radial-gradient(circle, rgba(71,98,218,1) 0%, rgba(96,96,189,1) 47%, rgba(0,212,255,1) 87%);
+}
+
+#img-logo{
+  background-image: url(../img/EBS.jpg)transparent;
 }

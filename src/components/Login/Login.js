@@ -8,6 +8,7 @@ import Cookies from "universal-cookie";
 import { calculaExtraccionSesion } from "../helper/helpers";
 import Loading from "../Loading/Loading";
 
+
 const cookies = new Cookies();
 
 export default class Login extends React.Component {
@@ -54,6 +55,7 @@ export default class Login extends React.Component {
 
   render() {
     return (
+      
       <Container id="login-container">
         <Loading show={this.state.loading} />
         <Row>
@@ -103,3 +105,4 @@ export default class Login extends React.Component {
     );
   }
 }
+
