@@ -55,7 +55,7 @@ export default class Login extends React.Component {
 
   render() {
     return (
-      
+                  
       <Container id="login-container">
         <Loading show={this.state.loading} />
         <Row>
@@ -102,6 +102,8 @@ export default class Login extends React.Component {
           </Col>
         </Row>
       </Container>
+      
+      
     );
   }
 }
